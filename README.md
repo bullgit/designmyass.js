@@ -10,7 +10,7 @@ You have a site and want to stop care about design and readability.
 You can simply include the script anywhere in your document. For best performance put the script before closing the body tag.
 
 ```javascript
-<script src="path/to/dma.js"></script>
+<script src='path/to/dma.js'></script>
 ```
 
-To make things easier for you, we also made a [bookmark](http://bullg.it/designmyass.js) to use designmyass.js.
+To make things easier for you, we also made a [bookmark](http://bullg.it/designmyass.js#bookmark) to use designmyass.js.
