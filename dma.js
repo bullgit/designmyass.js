@@ -17,7 +17,7 @@ xhr.onreadystatechange = function () {
     pre.style.border = '1em solid';
 
     var code = document.createElement('code');
-    code.innerText = xhr.responseText;
+    code.textContent = xhr.responseText;
 
     pre.appendChild(code);
     
@@ -35,7 +35,7 @@ xhr.onreadystatechange = function () {
     closeBtn.style.borderRadius = '1.5em';
     closeBtn.style.background = 'rgba(255, 255, 255, .5)';
 
-    closeBtn.innerText = '✖';
+    closeBtn.textContent = '✖';
 
     document.firstElementChild.style.margin = '0';
     document.firstElementChild.style.width  = '100%';
